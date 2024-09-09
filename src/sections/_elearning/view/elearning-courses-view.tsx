@@ -10,13 +10,10 @@ import Typography from '@mui/material/Typography';
 
 import { useBoolean } from 'src/hooks/use-boolean';
 
-import { _courses } from 'src/_mock';
-
 import Iconify from 'src/components/iconify';
 
 import ElearningNewsletter from '../elearning-newsletter';
 import ElearningFilters from '../filters/elearning-filters';
-import ElearningCourseList from '../list/elearning-course-list';
 
 // ----------------------------------------------------------------------
 
@@ -68,9 +65,7 @@ export default function ElearningCoursesView() {
               pl: { md: 8 },
               width: { md: `calc(100% - ${280}px)` },
             }}
-          >
-            <ElearningCourseList courses={_courses} loading={loading.value} />
-          </Box>
+           />
         </Stack>
       </Container>
 

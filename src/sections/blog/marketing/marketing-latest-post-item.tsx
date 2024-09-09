@@ -68,7 +68,7 @@ export default function MarketingLatestPostItem({ post }: Props) {
 
           <Link
             component={RouterLink}
-            href={paths.marketing.post}
+            href={paths.eLearning.courses}
             variant="h4"
             color="inherit"
             underline="none"

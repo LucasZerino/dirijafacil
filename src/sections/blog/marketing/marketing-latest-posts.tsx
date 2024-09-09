@@ -47,7 +47,7 @@ export default function MarketingLatestPosts({ posts }: Props) {
   const viewAllBtn = (
     <Button
       component={RouterLink}
-      href={paths.marketing.posts}
+      href={paths.eLearning.courses}
       color="inherit"
       endIcon={<Iconify icon="carbon:chevron-right" />}
     >

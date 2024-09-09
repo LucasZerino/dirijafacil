@@ -50,7 +50,7 @@ export default function HomeForDesigner() {
           endIcon={<Iconify icon="carbon:launch" />}
           target="_blank"
           rel="noopener"
-          href={paths.figmaPreview}
+          href={paths.eLearning.courses}
         >
           figma workspace
         </Button>

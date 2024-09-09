@@ -63,7 +63,7 @@ export default function NavMobile({ data }: NavProps) {
               fullWidth
               variant="contained"
               color="inherit"
-              href={paths.zoneStore}
+              href={paths.eLearning.courses}
               target="_blank"
               rel="noopener"
             >

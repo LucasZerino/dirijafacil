@@ -8,7 +8,6 @@ import ListItemText from '@mui/material/ListItemText';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemButton from '@mui/material/ListItemButton';
 
-import { paths } from 'src/routes/paths';
 import { useActiveLink } from 'src/routes/hooks';
 import { RouterLink } from 'src/routes/components';
 
@@ -20,34 +19,6 @@ import Iconify from 'src/components/iconify';
 import TextMaxLine from 'src/components/text-max-line';
 
 // ----------------------------------------------------------------------
-
-const navigations = [
-  {
-    title: 'Personal Info',
-    path: paths.eCommerce.account.personal,
-    icon: <Iconify icon="carbon:user" />,
-  },
-  {
-    title: 'Wishlist',
-    path: paths.eCommerce.account.wishlist,
-    icon: <Iconify icon="carbon:favorite" />,
-  },
-  {
-    title: 'Vouchers',
-    path: paths.eCommerce.account.vouchers,
-    icon: <Iconify icon="carbon:cut-out" />,
-  },
-  {
-    title: 'Orders',
-    path: paths.eCommerce.account.orders,
-    icon: <Iconify icon="carbon:document" />,
-  },
-  {
-    title: 'Payment',
-    path: paths.eCommerce.account.payment,
-    icon: <Iconify icon="carbon:purchase" />,
-  },
-];
 
 // ----------------------------------------------------------------------
 
@@ -99,12 +70,6 @@ export default function Nav({ open, onClose }: Props) {
       </Stack>
 
       <Divider sx={{ borderStyle: 'dashed' }} />
-
-      <Stack sx={{ my: 1, px: 2 }}>
-        {navigations.map((item) => (
-          <NavItem key={item.title} item={item} />
-        ))}
-      </Stack>
 
       <Divider sx={{ borderStyle: 'dashed' }} />
 

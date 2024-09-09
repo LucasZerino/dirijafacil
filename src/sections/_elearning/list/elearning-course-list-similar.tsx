@@ -1,15 +1,9 @@
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
-
 import { useResponsive } from 'src/hooks/use-responsive';
-
-import Iconify from 'src/components/iconify';
 
 import { ICourseProps } from 'src/types/course';
 
@@ -24,16 +18,7 @@ type Props = {
 export default function ElearningCourseListSimilar({ courses }: Props) {
   const mdUp = useResponsive('up', 'md');
 
-  const viewAllBtn = (
-    <Button
-      component={RouterLink}
-      href={paths.eLearning.courses}
-      color="inherit"
-      endIcon={<Iconify icon="carbon:chevron-right" />}
-    >
-      View All
-    </Button>
-  );
+
 
   return (
     <Box
@@ -51,9 +36,7 @@ export default function ElearningCourseListSimilar({ courses }: Props) {
             mb: { xs: 8, md: 10 },
           }}
         >
-          <Typography variant="h3">Similar Courses</Typography>
-
-          {mdUp && viewAllBtn}
+          <Typography variant="h3">Cursos Similares</Typography>
         </Stack>
 
         <Box
@@ -73,9 +56,7 @@ export default function ElearningCourseListSimilar({ courses }: Props) {
         </Box>
 
         {!mdUp && (
-          <Stack alignItems="center" sx={{ mt: 8 }}>
-            {viewAllBtn}
-          </Stack>
+          <Stack alignItems="center" sx={{ mt: 8 }} />
         )}
       </Container>
     </Box>

@@ -49,7 +49,7 @@ export default function TravelLandingPostItemCarousel({ post }: Props) {
 
           <Typography sx={{ opacity: 0.72, mb: 10 }}>{post.description}</Typography>
 
-          <Fab component={RouterLink} href={paths.travel.post}>
+          <Fab component={RouterLink} href={paths.eLearning.courses}>
             <Iconify icon="carbon:chevron-right" />
           </Fab>
         </Box>

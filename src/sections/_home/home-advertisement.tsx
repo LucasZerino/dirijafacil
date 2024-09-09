@@ -49,7 +49,7 @@ export default function HomeAdvertisement() {
           target="_blank"
           rel="noopener"
           color="primary"
-          href={paths.zoneStore}
+          href={paths.eLearning.courses}
         >
           Purchase Now
         </Button>

@@ -3,7 +3,7 @@ import ElearningCourseView from 'src/sections/_elearning/view/elearning-course-v
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'E-learning: Course',
+  title: 'Dirija Fácil Natal: Curso de Condução',
 };
 
 export default function ElearningCoursePage() {

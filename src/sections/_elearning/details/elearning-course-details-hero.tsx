@@ -183,12 +183,12 @@ export default function ElearningCourseDetailsHero({ course }: Props) {
                     }}
                   >
                     <Stack direction="row" alignItems="center" sx={{ typography: 'body2' }}>
-                      <Iconify icon="carbon:time" sx={{ mr: 1 }} /> {`${totalHours} hours`}
+                      <Iconify icon="carbon:time" sx={{ mr: 1 }} /> {`${totalHours} horas`}
                     </Stack>
 
                     <Stack direction="row" alignItems="center" sx={{ typography: 'body2' }}>
                       <Iconify icon="carbon:document" sx={{ mr: 1 }} />
-                      {`${lessons?.length} Lessons`}
+                      {`${lessons?.length} Simulados`}
                     </Stack>
 
                     <Stack direction="row" alignItems="center" sx={{ typography: 'body2' }}>
@@ -217,7 +217,7 @@ export default function ElearningCourseDetailsHero({ course }: Props) {
                     </Stack>
 
                     <Stack direction="row" alignItems="center" sx={{ typography: 'body2' }}>
-                      <Iconify icon="carbon:help" sx={{ mr: 1 }} /> {`${totalQuizzes} Quizzes`}
+                      <Iconify icon="carbon:help" sx={{ mr: 1 }} /> {`${totalQuizzes} Questões`}
                     </Stack>
                   </Stack>
                 </Stack>

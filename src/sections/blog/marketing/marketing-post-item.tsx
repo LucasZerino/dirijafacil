@@ -63,7 +63,7 @@ export default function MarketingPostItem({ post }: Props) {
             sx={{ color: 'inherit', opacity: 0.72 }}
           />
 
-          <Link component={RouterLink} href={paths.marketing.post} sx={{ color: 'common.white' }}>
+          <Link component={RouterLink} href={paths.eLearning.courses} sx={{ color: 'common.white' }}>
             <TextMaxLine variant="h4">{post.title}</TextMaxLine>
           </Link>
         </Stack>

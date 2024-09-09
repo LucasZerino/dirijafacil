@@ -35,7 +35,7 @@ export type NavSubListProps = {
   subheader: string;
   isNew?: boolean;
   cover?: string;
-  items: {
+  items?: {
     title: string;
     path: string;
   }[];

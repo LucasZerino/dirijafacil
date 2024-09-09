@@ -23,10 +23,10 @@ export default function HomeCombination() {
       <Button
         size="large"
         color="inherit"
-        variant="outlined"
+        variant="contained"
         target="_blank"
         rel="noopener"
-        href={paths.minimalStore}
+        href={paths.eLearning.courses}
         endIcon={<Iconify icon="carbon:chevron-right" width={16} />}
         sx={{ ...(mdUp && { mt: 5 }) }}
       >

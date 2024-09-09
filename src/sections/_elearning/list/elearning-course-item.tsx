@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { paths } from 'src/routes/paths';
 import { RouterLink } from 'src/routes/components';
 
-import { fCurrency, fShortenNumber, fCurrencyBRL } from 'src/utils/format-number';
+import { fCurrencyBRL, fShortenNumber } from 'src/utils/format-number';
 
 import Label from 'src/components/label';
 import Image from 'src/components/image';

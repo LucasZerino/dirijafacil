@@ -100,8 +100,8 @@ export const _emails = [
 // ----------------------------------------------------------------------
 
 export const _fullNames = [
-  'Jayvion Simon',
-  'Lucian Obrien',
+  'Silvaneide Dantas',
+  'Graziano Silva',
   'Deja Brady',
   'Harrison Stein',
   'Reece Chung',
@@ -247,12 +247,12 @@ export const _phoneNumbers = [
 // ----------------------------------------------------------------------
 
 export const _roles = [
-  'HR Manager',
-  'Data Analyst',
-  'Legal Counsel',
-  'UX/UI Designer',
-  'Project Manager',
-  'Account Manager',
+  'Diretora',
+  'Diretor',
+  'Professor',
+  'Secretário',
+  'Recepcionista',
+  'Instrutor de Condução',
   'Registered Nurse',
   'Business Analyst',
   'Creative Director',

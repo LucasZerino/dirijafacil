@@ -1,5 +1,4 @@
 import Box from '@mui/material/Box';
-import Fab from '@mui/material/Fab';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
@@ -10,8 +9,6 @@ import { alpha, useTheme } from '@mui/material/styles';
 
 import { useBoolean } from 'src/hooks/use-boolean';
 import { useResponsive } from 'src/hooks/use-responsive';
-
-import { fShortenNumber } from 'src/utils/format-number';
 
 import { _mock } from 'src/_mock';
 import { bgGradient } from 'src/theme/css';
@@ -38,7 +35,7 @@ export default function ElearningLandingHero() {
   const videoOpen = useBoolean();
 
   return (
-    <>
+    <section id='home'>
       <Box
         sx={{
           ...bgGradient({
@@ -127,6 +124,6 @@ export default function ElearningLandingHero() {
       </Box>
 
       <PlayerDialog open={videoOpen.value} onClose={videoOpen.onFalse} videoPath={_mock.video(0)} />
-    </>
+    </section>
   );
 }

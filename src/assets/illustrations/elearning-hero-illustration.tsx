@@ -23,10 +23,6 @@ const varDown = {
   transition: { duration: 8, repeat: Infinity },
 };
 
-const varLeft = {
-  animate: { x: [8, -8, 8], y: [4, -4, 4] },
-  transition: { duration: 7, repeat: Infinity },
-};
 
 const varRight = {
   animate: { x: [8, -8, 8], y: [4, -4, 4] },

@@ -61,7 +61,7 @@ export default function NavList({ data }: NavListProps) {
         //
         active={active}
         hasChild={!!data.children}
-        externalLink={data.path.includes('http')}
+        externalLink={data.path?.includes('http') ?? false}
       />
 
       {!!data.children && menuOpen.value && (
@@ -126,7 +126,7 @@ export default function NavList({ data }: NavListProps) {
 function NavSubList({ subheader, isNew, cover, items }: NavSubListProps) {
   const pathname = usePathname();
 
-  const coverPath = items.length ? items[0].path : '';
+  const coverPath = items?.length ? items[0].path : '';
 
   const commonList = subheader === 'Common';
 
@@ -170,7 +170,7 @@ function NavSubList({ subheader, isNew, cover, items }: NavSubListProps) {
       )}
 
       <Stack spacing={1.5} alignItems="flex-start">
-        {items.map((item) => {
+        {items?.map((item) => {
           const active = pathname === item.path || pathname === `${item.path}/`;
 
           return (

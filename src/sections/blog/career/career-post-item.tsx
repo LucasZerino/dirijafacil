@@ -58,7 +58,7 @@ export default function CareerPostItem({ post, index }: Props) {
 
         <Link
           component={RouterLink}
-          href={paths.career.post}
+          href={paths.eLearning.courses}
           color="inherit"
           variant="h5"
           sx={{

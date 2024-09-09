@@ -89,7 +89,7 @@ export default function Header() {
           <Badge badgeContent={2} color="info">
             <IconButton
               component={RouterLink}
-              href={paths.eCommerce.wishlist}
+              href={paths.eLearning.courses}
               size="small"
               color="inherit"
               sx={{ p: 0 }}
@@ -101,7 +101,7 @@ export default function Header() {
           <Badge badgeContent={4} color="error">
             <IconButton
               component={RouterLink}
-              href={paths.eCommerce.cart}
+              href={paths.eLearning.courses}
               size="small"
               color="inherit"
               sx={{ p: 0 }}
@@ -112,7 +112,7 @@ export default function Header() {
 
           <IconButton
             component={RouterLink}
-            href={paths.eCommerce.account.personal}
+            href={paths.eLearning.courses}
             size="small"
             color="inherit"
             sx={{ p: 0 }}

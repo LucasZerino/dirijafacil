@@ -31,7 +31,7 @@ export default function CareerLatestPosts({ posts }: Props) {
   const viewAllBtn = (
     <Button
       component={RouterLink}
-      href={paths.career.posts}
+      href={paths.eLearning.courses}
       color="inherit"
       endIcon={<Iconify icon="carbon:chevron-right" />}
     >

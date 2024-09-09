@@ -93,7 +93,7 @@ export default function TravelLandingPosts({ posts }: Props) {
             <Button
               color="primary"
               component={RouterLink}
-              href={paths.travel.posts}
+              href={paths.eLearning.courses}
               endIcon={<Iconify icon="carbon:chevron-right" />}
             >
               View All

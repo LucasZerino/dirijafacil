@@ -39,7 +39,7 @@ export default function ElearningLandingFeaturedCourses({ courses }: Props) {
   const mdUp = useResponsive('up', 'md');
 
   return (
-    <Container
+    <Container id='cursos'
       sx={{
         pt: { xs: 5, md: 10 },
       }}

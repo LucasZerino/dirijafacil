@@ -63,11 +63,12 @@ export default function NavMobile({ data }: NavProps) {
               fullWidth
               variant="contained"
               color="inherit"
-              href={paths.eLearning.courses}
+              href="https://api.whatsapp.com/send?phone=558499273698&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20autoescola%20Dirija%20F%C3%A1cil%20Natal.%20Encontrei%20voc%C3%AAs%20pelo%20site!"
               target="_blank"
               rel="noopener"
+              startIcon={<Iconify icon="carbon:whatsapp" />}
             >
-              Buy Now
+              Fale conosco
             </Button>
           </Stack>
         </Scrollbar>

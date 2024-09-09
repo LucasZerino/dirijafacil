@@ -64,6 +64,7 @@ export default function HomeFAQs() {
   return (
     <Container
       component={MotionViewport}
+      id="faq"
       sx={{
         position: 'relative',
         py: { xs: 5, md: 10 },

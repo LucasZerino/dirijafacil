@@ -22,28 +22,28 @@ import { varFade, MotionViewport } from 'src/components/animate';
 
 const CONTENTS = [
   {
-    question: `What's in the product packages?`,
-    answer: `Curabitur nisi. Phasellus blandit leo ut odio. Donec posuere vulputate arcu. Donec mi odio, faucibus at, scelerisque quis, convallis in,`,
+    question: 'Quais documentos são necessários para se matricular na autoescola?',
+    answer: 'Para se matricular, você precisará do RG, CPF, comprovante de residência e, se aplicável, sua CNH provisória.',
   },
   {
-    question: 'How can I upgrade my product plan?',
-    answer: `Curabitur nisi. Phasellus blandit leo ut odio. Donec posuere vulputate arcu. Donec mi odio, faucibus at, scelerisque quis, convallis in,`,
+    question: 'Quanto tempo demora para concluir o processo de habilitação?',
+    answer: 'O tempo médio é de 3 a 4 meses, variando de acordo com a disponibilidade de horários para as aulas e exames.',
   },
   {
-    question: 'Are design assets (Figma, Sketch, Adobe XD) included?',
-    answer: `Curabitur nisi. Phasellus blandit leo ut odio. Donec posuere vulputate arcu. Donec mi odio, faucibus at, scelerisque quis, convallis in,`,
+    question: 'Quais categorias de habilitação a autoescola oferece?',
+    answer: 'Oferecemos cursos para as categorias A (moto), B (carro), e AB (carro e moto), além de adição e mudança de categoria.',
   },
   {
-    question: 'Does this product support TypeScript?',
-    answer: `Curabitur nisi. Phasellus blandit leo ut odio. Donec posuere vulputate arcu. Donec mi odio, faucibus at, scelerisque quis, convallis in,`,
+    question: 'O que está incluso no valor do curso?',
+    answer: 'O valor inclui as aulas teóricas, práticas, simulador e material didático.',
   },
   {
-    question: 'Can I use this template in commercial projects like a SaaS?',
-    answer: `Curabitur nisi. Phasellus blandit leo ut odio. Donec posuere vulputate arcu. Donec mi odio, faucibus at, scelerisque quis, convallis in,`,
+    question: 'A autoescola oferece aulas práticas aos finais de semana?',
+    answer: 'Sim, oferecemos aulas práticas aos sábados para melhor atender os alunos com agendas apertadas durante a semana.',
   },
   {
-    question: 'How can I request support?',
-    answer: `Curabitur nisi. Phasellus blandit leo ut odio. Donec posuere vulputate arcu. Donec mi odio, faucibus at, scelerisque quis, convallis in,`,
+    question: 'Quais são as formas de pagamento disponíveis?',
+    answer: 'Aceitamos pagamentos via cartão de crédito, débito, transferência bancária e parcelamento direto com a autoescola.',
   },
 ];
 
@@ -73,7 +73,7 @@ export default function HomeFAQs() {
         <Grid xs={12} md={8}>
           <m.div variants={varFade().in}>
             <Typography variant="h2" sx={{ textAlign: 'center' }}>
-              Frequently Asked Questions
+              Perguntas Frequentes
             </Typography>
           </m.div>
 
@@ -129,12 +129,12 @@ export default function HomeFAQs() {
             }}
           >
             <m.div variants={varFade().inUp}>
-              <Typography variant="h3">Still Have Questions?</Typography>
+              <Typography variant="h3">Ficou com dúvidas?</Typography>
             </m.div>
 
             <m.div variants={varFade().inUp}>
               <Typography sx={{ mt: 3, mb: 5, color: 'text.secondary' }}>
-                Please describe your case to receive the most accurate advice.
+                Entre em contato conosco pelo WhatsApp para esclarecer suas dúvidas.
               </Typography>
             </m.div>
 
@@ -143,9 +143,10 @@ export default function HomeFAQs() {
                 size="large"
                 color="inherit"
                 variant="contained"
-                href="mailto:support@minimals.cc?subject=[Feedback] from Customer"
+                onClick={() => window.open('https://api.whatsapp.com/send?phone=558499273698&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20autoescola%20Dirija%20F%C3%A1cil%20Natal.%20Encontrei%20voc%C3%AAs%20pelo%20site!', '_blank')}
+                startIcon={<Iconify icon="carbon:whatsapp" />}
               >
-                Contact us
+                Fale conosco
               </Button>
             </m.div>
           </Box>

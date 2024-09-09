@@ -79,7 +79,7 @@ export default function Footer() {
               <Stack spacing={2}>
                 <Typography variant="h6">Suporte</Typography>
                 <Link variant="body2" href="#faq" >FAQ</Link>
-                <Link variant="body2" href="https://wa.me/558499273698" target="_blank" >Contato</Link>
+                <Link variant="body2" href="https://api.whatsapp.com/send?phone=558499273698&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20autoescola%20Dirija%20F%C3%A1cil%20Natal.%20Encontrei%20voc%C3%AAs%20pelo%20site!" target="_blank" >Contato</Link>
                 <Link variant="body2" >CFC em Natal RN</Link>
               </Stack>
 
@@ -108,7 +108,7 @@ export default function Footer() {
           </Typography>
 
           <Stack direction="row" spacing={3} justifyContent="center">
-            <Link variant="caption" sx={{ color: 'text.secondary' }} href="https://wa.me/558499273698" target="_blank">
+            <Link variant="caption" sx={{ color: 'text.secondary' }} href="https://api.whatsapp.com/send?phone=558499273698&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20autoescola%20Dirija%20F%C3%A1cil%20Natal.%20Encontrei%20voc%C3%AAs%20pelo%20site!" target="_blank">
               Central de Ajuda
             </Link>
 
